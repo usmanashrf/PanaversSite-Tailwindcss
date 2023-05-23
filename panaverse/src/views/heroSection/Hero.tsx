@@ -26,4 +26,5 @@ export default function Hero() {
       <Image className="w-screen" alt="bgImg" src={heroBG}></Image>
     </div>
   );
+
 }

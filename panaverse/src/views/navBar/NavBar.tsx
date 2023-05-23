@@ -8,6 +8,7 @@ import PrimaryButton from "@/components/buttons/PrimaryButton";
 export default function NavBar() {
   return (
     <div className="grid grid-cols-4 bg-gray-700 opacity-70 sticky top-0 z-10">
+
       <div className="ml-[87px] my-[24px]">
         <Image alt="panaverseLogo" src={logo}></Image>
       </div>

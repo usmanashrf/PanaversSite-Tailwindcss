@@ -15,6 +15,7 @@ export default function Home() {
    <Program/>
    <JoinUs/>
    <OurPartners/>
+   <Hero></Hero>
    </>
   )
 }
