@@ -1,5 +1,6 @@
 import NavBar from '@/views/navBar/NavBar'
 import './globals.css'
+import Provider from './Provider'
 
 export default function RootLayout({
   children,
@@ -14,8 +15,10 @@ export default function RootLayout({
       */}
       <head />
       <body>
+        <Provider>
         <NavBar></NavBar>
         {children}
+        </Provider>
         </body>
     </html>
   )
